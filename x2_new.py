@@ -1,6 +1,14 @@
+#code for calculating the roots of a square equation
+#arguments are entered in the order a then enter and then enter and C then enter
+#Used only for calculation of full quadratic equations
+#June 2020
+
 #код для вычисления корней квадратного урованения
 #аргументы вводятся в порядке a потом enter и потом enter и с потом enter
-#June 2020
+#Используется только для вычисления полных квадратных уравнений 
+#Июнь 2020
+
+
 from math import sqrt
 a = 0
 b = 0
@@ -28,17 +36,3 @@ if d > 0:
     print("второй корень",x2)
 if d < 0:
     print("нет решения")
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
